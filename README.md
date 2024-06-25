@@ -23,7 +23,10 @@ Citation:
   1. Download the [CLOTH](https://www.cs.cmu.edu/~glai1/data/cloth/) dataset.
   2. Run `PrepareClothForT2T.py`
   3. Run `Text2Text.ipynb`
-- `data/`
+- `Data/`
   - `exp-data.json`: CLOTH passages used for MTurk experiments, with distractors for all conditions.
   - `results.json`: Raw MTurk results
   - `parseResults.py`: Code to process results and compute correlations. Usage: `parseResults.py results.json`
+- `dict-info.txt`: For checking word existence
+- `dict-unix.txt`: For checking word existence
+- `profanity.json`: For filtering profanity from distractors
